@@ -1,0 +1,95 @@
+Planning = {
+		"PAA": "\n\nCongratulations on your successful planning application. If you are considering a sale or a JV for the site now that planning has been achieved please consider our client as a potential development partner. Our client is fully funded and could swiftly complete subject to contract.",
+		"PAP": "\n\nWe noticed a planning application has been submitted on title [TitleNumber] and we were wondering if you had a developer in place to take on the project once the application is successful?",
+		"PAR": "\n\nWe were sorry to note that your planning was refused. However, after reviewing the submission and reason for refusal our in house planning consultants believe a successful planning consent is still achievable with a revised proposal.",
+		"PAL": "\n\nWe noticed that the planning application on [TitleNumber] has lapsed and we were wondering if you had considered looking back at the opportunity under the current planning guidance?"
+	}
+#struggling to actually see how to get planning from SL API - might have to be a manual question (yes/no for planning, then specify nature of planning want to include - only easy for single letter function)
+#all you can get from a title is "latest_planning_application": "2012-02-29T00:00:00.000Z", which isn't useful
+
+GreenConstraints = { #STEVE BASICALLY SAID NOT FEASIBLE TO GENERALLY PRIORITISE CONSTRAINTS - SO THESE ARE CURRENTLY NOT IN USE IN ANY TEMPLATES BUT DEMO READY, AI GENERATED TEXT
+		"NNR": "\n\nBeing part of or adjacent to a National Nature Reserve, your property enjoys a status that highlights its ecological value. Development in these areas is highly regulated to preserve biodiversity and natural habitats. We can discuss how this prestigious designation influences your property's potential and the specialized approaches required for managing such land.",
+		"RAMS": "\n\nYour land is part of or adjacent to a RAMSAR site, recognized globally for its ecological significance, particularly in terms of wetland conservation. This designation restricts developments to ensure the protection of wetland habitats. We can explore what this means for your property, focusing on sustainable development practices that align with global conservation goals.",
+		"CTP": "\n\nWith your property encompassing or bordering a Country Park, it benefits from a protected status aimed at preserving natural beauty and providing recreational opportunities. This setting can influence the types of permissible development and requires sensitive planning. We are adept at discussing options that harmonize development with public enjoyment and conservation.",
+		"SAC": "\n\nYour property lies within or adjacent to a Special Area of Conservation, designated to protect and enhance the region's most significant natural habitats. This classification carries stringent regulatory implications for development to ensure ecological stability and biodiversity. We can assist in navigating these environmental guidelines to find a responsible and viable approach to development.",
+		"LNR": "\n\nBeing part of or adjacent to a Local Nature Reserve, your property is recognized for its local ecological value. Development in these areas typically requires careful consideration of environmental impacts and community access. We can discuss the specific constraints and opportunities of your land, ensuring that any development respects the ecological significance.",
+		"PAG": "\n\nYour property includes or is near designated Parks and Gardens, recognized for their historic and aesthetic value. This status can influence development options, prioritizing conservation and public enjoyment. We are experienced in handling properties with such distinguished characteristics and can guide you through the potential impacts on development.",
+		"NTP": "\n\nLocated within or near a National Park, your property is part of a nationally protected area aimed at preserving natural beauty and cultural heritage. Development here is highly restricted to ensure that these values are upheld. We can help you understand these restrictions and explore any possible development scenarios that respect the park’s objectives.",
+		"DOS": "\n\nBeing designated as Open Space, your property is valued for its contribution to public recreation, biodiversity, and the urban landscape. This designation often restricts development to maintain these values. We can explore with you the specific implications for your property and how to manage it under these constraints.",
+		"S4B": "\n\nLocated within a 400m buffer of a Special Protection Area, your property is part of a zone crucial for the conservation of rare and vulnerable birds and their habitats. Developments within this buffer are highly regulated to prevent disturbances. We can assist in navigating these regulations, ensuring that any potential development is conducted responsibly.",
+		"NEU": "\n\nNutrient Neutrality requirements apply to your property, necessitating that any development does not increase nutrient loading in the surrounding environment. This is crucial in areas sensitive to nitrogen and phosphorus pollution. We can discuss strategies to meet these requirements, ensuring that your development plans are both compliant and sustainable.",
+		"AONB": "\n\nAs part of an Area of Outstanding Natural Beauty, your property is within a landscape whose distinctive character and natural beauty are so outstanding that it is in the nation’s interest to safeguard them. Any development here must be sympathetic to the environment. We are adept at planning developments that enhance and preserve these qualities while realizing property potential.",
+		"ACW": "\n\nWe have noted that your property includes or is adjacent to Ancient Woodland. Ancient Woodlands are highly protected areas with significant ecological value, often leading to stringent planning constraints. The presence of such woodlands can impact development opportunities, requiring careful consideration of ecological effects and mitigation strategies. We value the environmental importance of these areas and would like to explore with you the responsible ways to manage or potentially develop this land.",
+		"CVA": "\n\nAs part of a Conservation Area, your property is recognized for its special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance. Any development within this area will need to respect and contribute to the preservation of its historical integrity. We can help you navigate the specific requirements and opportunities for developing property in such a valued setting.",
+		"GRB": "\n\nRegarding the designation of your property within the Green Belt, we recognize the restrictions this implies for development. Green Belt policies are designed to prevent urban sprawl by keeping land permanently open; therefore, any development proposals must demonstrate very special circumstances. This constraint is significant in our evaluation process as it influences the potential for development. We are experienced in navigating these complexities and are keen to discuss how this might affect any potential sale.",
+		"BUA": "\n\nBeing located within a Built-Up Area, your property is part of an established urban environment, which may facilitate certain types of development but also comes with stricter regulations to manage density and community impact. We can assist in identifying the most suitable development opportunities that align with urban planning policies and community expectations.",
+		"SSSI": "\n\nSituated within an SSSI Impact Zone, your property is near areas of particular conservation interest, safeguarding diverse ecosystems and species. Development within this zone is highly regulated to prevent adverse impacts on these important sites. We can help you plan developments that are mindful of these environmental considerations and compliant with national conservation laws."
+	}
+
+#SORT BELOW TEXT
+HeritageConstraints = {
+		"BTF": "\n\nThe site includes or is near a registered Battlefield. This area has been recognized for its historical significance in national history, which can affect development prospects. Any interventions in such locations are scrutinized for their impact on the historical context and integrity of the site. We are equipped to navigate these unique challenges and discuss the implications with you.",
+		"WHS": "\n\nBeing a World Heritage Site, your property is recognized for its outstanding universal value, attracting both national and international attention. Any development here must strictly adhere to criteria that preserve the site’s integrity and heritage. Our expertise includes working within these prestigious contexts to ensure any development respects and enhances the site’s global significance.",
+		"SDM": "\n\nAs a Scheduled Monument, your property holds archaeological or historical importance protected by law. Any changes or development on or around the site require careful planning and often, specific permissions. Our experience includes working with properties under such protection, and we are equipped to guide you through the complex regulations governing your site.",
+		"LBIP": "\n\nYour property's inclusion of a Listed Building indicates its historical importance and brings specific regulatory frameworks into play. Listed Buildings are protected due to their architectural or historic interest, and any development or alteration can be subject to detailed scrutiny. Understanding the constraints and opportunities this provides is crucial, and we are prepared to discuss how this unique aspect of your property can be preserved while exploring potential development options.",
+		"LB50B": "\n\nYour property is within 50 meters of a Listed Building, requiring careful consideration of any development impacts on the historical structure. This proximity means that any planning and construction must preserve the setting and appearance of the listed building. We can guide you through the necessary steps to ensure your development respects and complements this heritage asset."
+	}
+
+#SORT BELOW TEXT
+FloodConstraints = {
+		"FZ3": "\n\nLocated in Flood Zone 3, your property is in an area with a high probability of flooding. This designation affects planning permissions and requires the implementation of robust flood risk management strategies. We specialize in navigating these complexities and can help you understand how to develop your property safely and sustainably.",
+		"FZ2": "\n\nYour property falls within Flood Zone 2, indicating a moderate risk of flooding. Development here must be planned with consideration of flood resilience and mitigation measures. We can provide expert guidance on creating a development strategy that ensures both compliance with flood risk regulations and the protection of your investment."
+	}
+
+#SORT BELOW TEXT
+GeneralConstraints = {
+		"FAB": "\n\nYour property is identified to have geological features such as Fissure and Breaklines. These features can introduce specific engineering challenges and constraints on development due to the potential for ground instability. Our team has expertise in assessing such geotechnical risks and can guide you through possible development strategies that respect these conditions.",
+		"SFM": "\n\nThe presence of Surface Mining activities or potential in your area can significantly impact land use and development strategies. Such areas are often subject to specific regulatory oversight to manage environmental and community impacts. We can provide expertise in evaluating these factors and discussing viable development approaches.",
+		"TCB": "\n\nYour property falls within Town Centre Boundaries, making it subject to policies aimed at central urban development and revitalization. This location can provide advantageous development opportunities, particularly for retail and commercial projects. We can assist in leveraging the strategic position of your property to align with urban development plans.",
+		"PASCMW": "\n\nYour property is affected by Past Shallow Coal Mine Workings. This historical mining activity can have implications for ground stability and potential redevelopment. It's important to consider detailed geotechnical assessments before any development. We are here to help you understand these challenges and discuss the necessary steps to ensure safety and compliance.",
+		"NEMGC": "\n\nThe area including your property is identified with Groundwater Constraints due to past mining activities, particularly in the North East. This condition can influence land use, necessitating special measures to manage water pollution and soil stability. Our expertise includes addressing such environmental constraints effectively, providing you with knowledgeable guidance on managing these issues.",
+		"MEPZI": "\n\nYour property lies within a Mine Entry Potential Zone of Influence, indicating potential underground instability issues due to historical mining entries. This designation necessitates careful structural planning and monitoring. We can provide detailed analysis and guidance on mitigating associated risks, ensuring a safe development process.",
+		"COC": "\n\nThe presence of a Coal Outcrop on your property suggests direct exposure of coal seams at the surface, which can affect land use and environmental management strategies. This unique feature requires specialized handling to address potential environmental impacts. We are prepared to help you explore the appropriate management and development options for your property.",
+		"PRSCMW": "\n\nYour land is characterized by Probable Shallow Coal Mine Workings, indicating a history of mining activity that may affect future land use and stability. Prior to any development, detailed investigations are required to assess the extent and impact of these workings. Our team is experienced in such assessments and can guide you through this complex process.",
+		"CMDHRA": "\n\nYour property is in a Coal & Mining Development High Risk Area, which means it is subject to additional scrutiny during the planning process to address issues related to past mining activities. We can assist in thorough site assessments and develop a strategy that considers both the potential risks and benefits of developing in such an area.",
+		"SCRA": "\n\nBeing located in a Surface Coal Resource Area, your property sits atop significant coal resources, which may impact potential land use and development strategies. This designation often requires specialized environmental and mining assessments. Our team can guide you through the necessary steps to address these unique challenges.",
+		"ABDM": "\n\nThe presence of an Abandoned Mine on your property suggests past mining activities that may have left subsurface voids or unstable ground. This history requires careful consideration in any development plans, including detailed ground stability assessments. Our expertise in dealing with such properties ensures that we can guide you through mitigating these risks effectively.",
+		"MRA": "\n\nYour property is located within a Mining Reporting Area, indicating that any development proposals must include mining risk assessments. These assessments are crucial to understand and mitigate risks related to historical mining activities. We are here to assist you in conducting these assessments and planning your development in accordance with local regulations and safety standards."
+	}
+
+#SORT BELOW TEXT
+LondonConstraints = { #only show yes/no option if site actually in London - check by e.g. "county" = "GREATER LONDON" or "district" = "CITY OF WESTMINSTER" for all possible
+		"CAZ": "\n\nLocated within the Central Activities Zone, your property sits in a key economic and administrative area, attracting specific planning and development strategies. This status can enhance the property’s value and opportunities but also comes with unique regulatory complexities. Let's explore the potential of your property within this vibrant zone.",
+		"LSIS": "\n\nYour property’s classification as a Locally Significant Industrial Site underscores its importance to the local economy. While this can attract development interest, it also requires careful planning to balance industrial activity with local development policies. We are prepared to help you navigate these dynamics and maximize your site's potential.",
+		"SIL": "\n\nAs Strategically Important Land, your property holds significant value for regional development and strategic operations. This designation can attract substantial interest and investment, though it also involves stringent planning requirements. We can assist in leveraging the strategic importance of your land while complying with all necessary regulations."
+	}
+
+#SORT BELOW TEXT
+LondonOpportunities = { #only show yes/no option if site actually in London - check by e.g. "county" = "GREATER LONDON" or "district" = "CITY OF WESTMINSTER" for all possible
+		"HSZ": "\n\nSituated within a Housing Zone, your property is targeted for residential development to meet local housing needs. This focus can facilitate more streamlined planning processes and potential subsidies. We understand the unique opportunities this designation provides and are ready to help you understand and maximize the benefits it offers.",
+		"OPA": "\n\nYour property is located within an Opportunity Area, identified as a focal point for development to drive economic growth and regeneration. This designation can enhance the site’s development potential but comes with expectations for substantial contributions to the local infrastructure and community. Let's explore the strategic development possibilities your property holds within this dynamic context.",
+		"AOI": "\n\nAREAS OF INTENSIFICATION TEXT TBC."
+	}
+
+#SL ALLOCATIONS + SHLAA API - 'as I'm sure aware, your site has been allocated in the LPA local plan...'
+#unfortunately tricky from SL API - not sure how to access - similar thing to SHLAA, hard to get since don't have their IDs
+
+#SORT BELOW TEXT
+DevelopmentOpportunities = {
+		"IFL": "\n\nINFILL TEXT TBC.",
+		"CQ": "\n\nCLASS Q TEXT TBC.",
+		"CMA": "\n\nCLASS MA TEXT TBC."
+	}
+
+#SORT BELOW TEXT
+LocalOpportunities = { #priority order here for clarity - implemented in tag code
+		"CFS": "\n\nOur planning team's research has highlighted your local planning authority, [LPANameFormatted], as having an open call for sites. As such, there is a window of opportunity to maximise the value of your [LandCategory].",
+		"HSNM": "\n\nThe 5 year housing supply in [LPANameFormatted] has not been met which we believe presents a window of opportunity to maximise the value of your [LandCategory].",
+		"PSUM": "\n\nPRESUMPTION TEXT TBC.",
+		"BAP": "\n\nBUFFER + ACTION PLAN TEXT TBC.",
+		"AP": "\n\nACTION PLAN TEXT TBC."
+	}
+
+Leaseholder = { #dictionary for consistency with letter generation tag conversion
+		"LPY": "\n\nWe noticed that your [LandCategory] is currently leased and we were wondering if you were thinking about selling at or before the end of the lease term?"
+	}
